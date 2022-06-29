@@ -179,7 +179,7 @@ equal.addEventListener("click", function () {
         secondnumber * 1;
         //Now lets check operator make result show it and restart secondnumber and flags
         if (operator === "+") {
-            result = firstnumber + secondnumber;
+            result = firstnumber*1 + secondnumber*1;
             firstnumber = result;
             num = firstnumber + "";
             secondnumber = "";
